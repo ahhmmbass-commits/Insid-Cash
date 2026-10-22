@@ -1,2 +1,14 @@
-# Insid-Cash
-The Sales System is a web-browser POS software for managing inventory, customers, and reports locally. It ensures full privacy, storing all business data on the client's device without sharing it with the provider. It operates offline, requiring internet only for license checks, and offers a lifetime license per device with separate mana
+# نظام المبيعات — تطبيق قابل للتثبيت
+
+## التشغيل كتطبيق على الموبايل والكمبيوتر
+1. ارفع كل ملفات هذا المجلد إلى استضافة https مجانية، مثل GitHub Pages أو Netlify Drop، وتأكد أن `index.html` في الجذر.
+2. افتح الرابط من Chrome أو Edge (أو Safari على الآيفون).
+3. اختر "تثبيت التطبيق" أو "إضافة إلى الشاشة الرئيسية".
+
+بعد أول فتح يعمل النظام بدون إنترنت.
+
+## ملاحظات مهمة
+- البيانات محفوظة على كل جهاز ومتصفح على حدة. لا توجد مزامنة بين الأجهزة.
+- خذ نسخة احتياطية بشكل دوري من الإعدادات، فحذف بيانات المتصفح يحذف البيانات.
+- لا تغيّر رابط الموقع بعد بدء العمل، لأن البيانات مرتبطة به.
+- بعد أي تعديل على `index.html` غيّر رقم `V` في `sw.js` (مثلًا `sales-app-v4`) ليصل التحديث إلى الأجهزة.
